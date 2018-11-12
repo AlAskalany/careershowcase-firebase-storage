@@ -1,0 +1,31 @@
+{
+  "name": "careershowcase-firebase-storage",
+  "version": "1.0.0",
+  "description": "Career Showcase Firebase project's Storage.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "firebase deploy --only storage \"Depoying Storage rules\"",
+    "deploy:ci": "firebase deploy --token \"$FIREBASE_TOKEN\" --only storage \"Depoying Storage rules\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scriptsComments": {
+    "deploy": "// Deploy Cloud Storage for Firebase rules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlAskalany/careershowcase-firebase-storage.git"
+  },
+  "keywords": [
+    "career",
+    "showcase"
+  ],
+  "author": "Ahmed AlAskalany <ahmed.alaskalany@gmail.com> (https://www.alaskalany.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlAskalany/careershowcase-firebase-storage/issues"
+  },
+  "homepage": "https://github.com/AlAskalany/careershowcase-firebase-storage#readme",
+  "devDependencies": {
+    "firebase-tools": "^6.0.1"
+  }
+}
